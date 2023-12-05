@@ -1,38 +1,183 @@
-.App {
+nav {
+  width: 100%;
+  
+  display: flex;
+  align-items: first baseline;
+
+}
+
+.nav--logo {
+  flex: 1;
   text-align: center;
+  font-family: 'Monomaniac One', sans-serif;
+  font-size: 35px;
+  color: #885BE8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav--item {
+  flex: 3;
+  display: flex;
+  padding-right: 50px;
+  justify-content: end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav--item li{
+  display: inline;
+  padding: 0 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav--item li a {
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  color: #000;
+  font-size: 18px;
+}
+
+.nav--item li a:hover {
+  color: #885BE8;
+}
+
+main {
+  
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home {
+  width: 1000px;
+  margin-top: 70px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home--image {
+  flex: 1;
+}
+
+.home--text {
+  flex: 2;
+}
+
+.home--text h1 {
+  font-size: 60px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+
+.home--text h1 span {
+  color: #885BE8;
+  font-weight: 500;
+}
+
+.home--text p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+
+  margin-bottom: 20px;
+}
+
+.home--btn_hire {
+  padding: 8px 15px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  background-color: #885BE8;
+  color: #fff;
+}
+
+.home--btn_hire:hover {
+  background-color: #7851CA;
+}
+
+.skills {
+  margin-top: 40px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills--image {
+  display: flex;
+  gap: 30px;
+}
+
+.skills--image img {
+  width: 40px;
+  
+}
+
+.about {
+  margin-top: 120px;
+  width: 800px;
+  display: flex;
+   gap: 20px;
+}
+
+.about--text {
+  flex: 2;
+  padding-right: 20px;
+  
+}
+
+.topic--title {
+  color: #885BE8;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 15px;
+}
+
+.about--text h1 {
+  font-size: 40px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+.about--text h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.about--text p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+
+.about--image {
+  flex: 1;
+}
+
+
+/* Project Section */
+
+.project {
+  margin-top: 120px;
+  width: 1000px;
+}
+
+.project--collection {
+  width: 100%;
+  display: flex;
+  height: 1000px;
+  background-color: antiquewhite;
 }
