@@ -10,7 +10,7 @@ export default function Skill () {
     <>
       <section className="skills">
         <div className="skills--image">
-          <h4>Tech Stack</h4>
+          <h4 className='skills--image_heading'>Tech Stack</h4>
           <img src={html} alt="html--logo" />
           <img src={css}  alt="css--logo"/>
           <img src={js} alt="js--logo"/>

@@ -1,3 +1,6 @@
+import React from 'react';
+import about_image from './../image/about--computer.jpg';
+
 export default function About () {
   return (
     <section class="about" id="about">
@@ -8,7 +11,7 @@ export default function About () {
         <p>I'm a passionate Junior Front-end Developer with a keen eye for detail and a love for crafting delightful user experiences. I thrive on turning design concepts into responsive and interactive web applications. My journey in the world of web development has equipped me with a solid foundation in front-end technologies, and I am eager to contribute my skills to innovative projects.</p>
       </div>
       <div class="about--image">
-        <img src="../.image/home-image.jpg" alt="" />
+        <img src={about_image} alt="" />
       </div>
     </section>
   );
