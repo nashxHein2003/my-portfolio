@@ -18,6 +18,11 @@ module.exports = {
       secondary: "#F6F2FF",
       "light-secondary": "#FBF9FF",
     },
+    height: {
+      full: "100%",
+      "40vh": "40vh",
+      "60vh": "60vh",
+    },
   },
   plugins: [],
 };

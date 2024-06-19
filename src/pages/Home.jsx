@@ -4,7 +4,7 @@ import admin from "./../image/admin.JPG";
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen bg-secondary">
+    <div className="w-full h-full bg-secondary">
       <Navbar />
       <MainSection />
     </div>
@@ -14,10 +14,10 @@ export default function Home() {
 const MainSection = () => {
   return (
     <>
-      <div className="w-full max-h-screen relative">
+      <div className="w-full h-60vh md:h-40vh relative">
         <section id="#main" className="w-full h-full flex flex-row">
-          <div className="flex-1">
-            <img src={admin} alt="" className="feature-image" />
+          <div className="flex-1 flex items-center justify-center">
+            <img src={admin} alt="" className="feature-image " />
           </div>
           <div className="flex-1">
             <p>

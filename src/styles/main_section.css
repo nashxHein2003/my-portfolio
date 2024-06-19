@@ -1,3 +1,5 @@
 .feature-image {
+  height: 75%;
+  object-fit: contain;
   border-radius: 74% 26% 55% 45% / 29% 78% 22% 71%;
 }
